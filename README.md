@@ -1,7 +1,7 @@
 # To-Do-list
 # Avoy Baruah's To-Do List Application
 
-Welcome to the To-Do List application! This application allows users to manage their tasks efficiently by adding, editing, deleting, and marking tasks as complete. The project is developed using HTML, CSS, and JavaScript, with a backend powered by Node.js and Express.
+Welcome to the To-Do List application! This application allows users to manage their tasks efficiently by adding, editing, deleting, and marking tasks as complete. The project is developed using HTML, CSS, and JavaScript.
 
 ## Features
 
