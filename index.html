@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern To-Do List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="color-changer">
+        <div class="navbar">
+            <div class="logo">MyBrand</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h1>Welcome to the Future</h1>
+            <p>Design that inspires. Solutions that empower. Let's create something amazing together.</p>
+            <button class="cta-button" onclick="toggleTodo()">View To-Do List</button>
+
+            <div id="todoSection" class="todo-section">
+                <h2>Your To-Do List</h2>
+                <div class="input-group">
+                    <input type="text" id="taskInput" placeholder="Add a new task">
+                    <button onclick="addTask()">Add Task</button>
+                </div>
+                <ul id="taskList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
